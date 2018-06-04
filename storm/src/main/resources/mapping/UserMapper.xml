@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper  
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.shdosh.user.dao.IUserDao">
+    <resultMap type="com.shdosh.user.pojo.User" id="us">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="userName" column="user_name" jdbcType="VARCHAR"/>
+        <result property="createTime" column="create_time" jdbcType="VARCHAR"/>
+    </resultMap>
+    <select id="selectByPrimaryKey" parameterType="int" resultMap="us">
+        SELECT user.id, user.user_name, user.create_time FROM custom_user AS user WHERE user.id = #{id}
+    </select>
+</mapper>

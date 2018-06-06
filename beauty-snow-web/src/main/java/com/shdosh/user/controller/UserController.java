@@ -6,10 +6,9 @@ import javax.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.shdosh.member.user.service.IUserService;
 import com.shdosh.user.pojo.User;
-import com.shdosh.user.service.IUserService;
 
 @Controller
 @RequestMapping(value="/user")

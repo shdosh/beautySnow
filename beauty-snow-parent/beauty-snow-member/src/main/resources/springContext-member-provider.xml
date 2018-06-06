@@ -8,7 +8,7 @@
         http://code.alibabatech.com/schema/dubbo/dubbo.xsd  
         ">
 	<!-- 具体的实现bean -->        
-	<bean id="userService" name="userService" class="com.shdosh.member.user.service.impl.UserServiceImpl"/>
+	<bean id="userService" class="com.shdosh.member.user.service.impl.UserServiceImpl"/>
 	
 	<!-- 声明需要暴露的服务接口 -->
 	<dubbo:service interface="com.shdosh.member.user.service.IUserService" ref="userService"/>

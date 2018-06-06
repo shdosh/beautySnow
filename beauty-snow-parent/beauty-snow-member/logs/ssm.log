@@ -19967,4 +19967,27 @@ return extension.getConfigurator(arg0);
   [DEBUG] [2018-06-06 19:00:39][com.alibaba.dubbo.remoting.exchange.support.header.HeartbeatHandler] [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 127.0.0.1
   [DEBUG] [2018-06-06 19:00:40][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 1ms
   [DEBUG] [2018-06-06 19:00:50][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 0ms
+  [DEBUG] [2018-06-06 19:01:00][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 1ms
+  [DEBUG] [2018-06-06 19:01:10][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 1ms
+  [DEBUG] [2018-06-06 19:01:20][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 1ms
+  [DEBUG] [2018-06-06 19:01:30][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 1ms
+  [DEBUG] [2018-06-06 19:01:39][com.alibaba.dubbo.remoting.exchange.support.header.HeartBeatTask] [DUBBO] Send heartbeat to remote channel /192.168.10.202:60999, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 127.0.0.1
+  [DEBUG] [2018-06-06 19:01:39][com.alibaba.dubbo.remoting.exchange.support.header.HeartbeatHandler] [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 127.0.0.1
+  [DEBUG] [2018-06-06 19:01:40][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 1ms
+  [DEBUG] [2018-06-06 19:01:50][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 0ms
+  [DEBUG] [2018-06-06 19:02:00][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 1ms
+  [DEBUG] [2018-06-06 19:02:10][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 1ms
+  [DEBUG] [2018-06-06 19:02:20][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 1ms
+  [DEBUG] [2018-06-06 19:02:30][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 1ms
+  [DEBUG] [2018-06-06 19:02:39][com.alibaba.dubbo.remoting.exchange.support.header.HeartBeatTask] [DUBBO] Send heartbeat to remote channel /192.168.10.202:60999, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 127.0.0.1
+  [DEBUG] [2018-06-06 19:02:39][com.alibaba.dubbo.remoting.exchange.support.header.HeartbeatHandler] [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 127.0.0.1
+  [DEBUG] [2018-06-06 19:02:40][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 1ms
+  [DEBUG] [2018-06-06 19:02:50][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 1ms
+  [DEBUG] [2018-06-06 19:03:00][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 0ms
+  [DEBUG] [2018-06-06 19:03:10][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 0ms
+  [DEBUG] [2018-06-06 19:03:20][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 0ms
+  [DEBUG] [2018-06-06 19:03:30][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 1ms
+  [DEBUG] [2018-06-06 19:03:39][com.alibaba.dubbo.remoting.exchange.support.header.HeartBeatTask] [DUBBO] Send heartbeat to remote channel /192.168.10.202:60999, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 127.0.0.1
+  [DEBUG] [2018-06-06 19:03:39][com.alibaba.dubbo.remoting.exchange.support.header.HeartbeatHandler] [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 127.0.0.1
+  [DEBUG] [2018-06-06 19:03:40][org.apache.zookeeper.ClientCnxn]Got ping response for sessionid: 0x1008b3d0c320017 after 1ms
   

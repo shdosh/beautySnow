@@ -15,7 +15,7 @@ public class UserServiceImpl implements IUserService {
     private IUserDao userDao;
     public User getUserById(int userId) {
         
-
+        System.out.println("test....");
         User user = userDao.selectByPrimaryKey(userId);
 
         return user;

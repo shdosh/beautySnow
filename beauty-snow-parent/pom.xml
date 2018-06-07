@@ -237,8 +237,4 @@
       </plugins>
     </pluginManagement>
   </build>
-  <modules>
-  	<module>beauty-snow-core</module>
-  	<module>beauty-snow-member</module>
-  </modules>
 </project>

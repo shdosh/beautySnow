@@ -2,8 +2,14 @@ package com.shdosh.user.pojo;
 
 import java.io.Serializable;
 import java.util.Date;
-
+/**
+ * Author: shdosh
+ * Description: 用户实体类
+ */
 public class User implements Serializable {
+
+    private static final long serialVersionUID = 6706928575899398832L;
+
     private Integer id;
     
     private String userName;

@@ -5,9 +5,13 @@ import javax.annotation.Resource;
 import org.springframework.stereotype.Service;
 
 import com.shdosh.member.user.dao.IUserDao;
-import com.shdosh.member.user.service.IUserService;
 import com.shdosh.user.pojo.User;
+import com.shdosh.user.service.IUserService;
 
+/**
+ * Author: shdosh
+ * Description: 用户服务实现
+ */
 @Service("userService")
 public class UserServiceImpl implements IUserService {
 
@@ -15,7 +19,6 @@ public class UserServiceImpl implements IUserService {
     private IUserDao userDao;
     public User getUserById(int userId) {
         
-        System.out.println("test....");
         User user = userDao.selectByPrimaryKey(userId);
 
         return user;

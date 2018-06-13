@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.shdosh.member.user.service.IUserService;
 import com.shdosh.user.pojo.User;
+import com.shdosh.user.service.IUserService;
 
 //@RunWith(SpringJUnit4ClassRunner.class)
 //@ContextConfiguration(locations = {"classpath:spring-mybatis.xml"})

@@ -12,12 +12,11 @@
            http://www.springframework.org/schema/jee/spring-jee-4.0.xsd 
 	       http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context-4.3.xsd">
-
 		<!-- 定义consumer的参数 -->
 		<bean id="consumerProperties" class="java.util.HashMap">
 			<constructor-arg>
 				<map>
-					<entry key="bootstrap.servers" value="localhost:9092"/>
+					<entry key="bootstrap.servers" value="127.0.0.1:9092"/>
 					<entry key="group.id" value="0"/>
 					<entry key="enable.auto.commit" value="false"/>
 					<entry key="auto.commit.interval.ms" value="1000"/>
@@ -36,16 +35,16 @@
 		</bean>
 		
 		<!-- 实际执行消息消费的类 -->
-		<bean id="messageListenerConsumerService" class="com.git.kafka.consumer.KafkaConsumerServer"/>
+		<bean id="messageListenerConsumerService" class="com.shdosh.kafka.consumer.KafkaConsumerServer"/>
 		
 		<!-- 消费者容器配置信息 -->
 		<bean id="containerProperties_log" class="org.springframework.kafka.listener.config.ContainerProperties">
-			<constructor-arg value="log_test_topic"/>
+			<constructor-arg value="logTopic"/>
 			<property name="messageListener" ref="messageListenerConsumerService"/>
 		</bean>
 		
 		<bean id="containerProperties_other" class="org.springframework.kafka.listener.config.ContainerProperties">
-			<constructor-arg value="other_test_topic"/>
+			<constructor-arg value="logTopic"/>
 			<property name="messageListener" ref="messageListenerConsumerService"/>
 		</bean>
 		
